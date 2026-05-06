@@ -537,7 +537,7 @@ int main() {
 			if (ranking.size() == 0) throw string("d");
 			if (fitness[i][ranking[0]] == 0) {
 				cout << "Solution found" << endl;
-				cout << "ì œ" << i << "ì„¸ëŒ€" << ranking[0] << "ë²ˆì§¸ ê°œì²´ / íšŒì „ìˆ˜ :" << vc[i][ranking[0]].size() << endl;
+				cout << "Á¦" << i << "¼¼´ë" << ranking[0] << "¹øÂ° °³Ã¼ / È¸Àü¼ö :" << vc[i][ranking[0]].size() << endl;
 				cout << "Solution" << endl;
 				for (int j = 0; j < vc[i][ranking[0]].size(); j++) {
 					cout << vc[i][ranking[0]][j] << " ";
@@ -545,12 +545,12 @@ int main() {
 				cout << endl;
 				return 0;
 			}
-			cout << "ì œ" << i << "ì„¸ëŒ€" << ranking[0] << "ë²ˆì§¸ ê°œì²´ / íšŒì „ìˆ˜ :" << vc[i][ranking[0]].size() << endl;
+			cout << "Á¦" << i << "¼¼´ë" << ranking[0] << "¹øÂ° °³Ã¼ / È¸Àü¼ö :" << vc[i][ranking[0]].size() << endl;
 			cout << "Solution" << endl;
 			for (int j = 0; j < vc[i][ranking[0]].size(); j++) {
 				cout << vc[i][ranking[0]][j] << " ";
 			}
-			cout << "ì ìˆ˜ " << fitness[i][ranking[0]] << endl;
+			cout << "Á¡¼ö " << fitness[i][ranking[0]] << endl;
 			cout << endl;
 
 		}
